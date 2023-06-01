@@ -4,11 +4,7 @@ import Skills from './components/skills';
 function About() {
   return (
     <section id="about" className="section-wrapper About-wrapper">
-      <div
-        className="About-item"
-        data-aos="fade-right"
-        data-aos-duration="1500"
-      >
+      <div className="About-item" data-aos="fade-up" data-aos-duration="1500">
         <h2 className="section-title">About</h2>
         <div className="About-text">
           <p>
@@ -31,7 +27,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="About-item" data-aos="fade-left" data-aos-duration="1500">
+      <div className="About-item" data-aos="fade-up" data-aos-duration="1500">
         <h2 className="section-title">Skills</h2>
         <Skills />
       </div>
