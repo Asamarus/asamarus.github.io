@@ -1,0 +1,26 @@
+.Container-full {
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .Container-wrapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .Container-wrapper {
+    width: 1240px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .Container-wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+}

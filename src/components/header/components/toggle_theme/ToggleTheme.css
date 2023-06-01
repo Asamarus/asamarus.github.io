@@ -1,0 +1,5 @@
+.ToggleTheme-wrapper {
+  cursor: pointer;
+  user-select: none;
+  padding: 5px;
+}

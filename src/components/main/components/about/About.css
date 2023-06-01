@@ -1,0 +1,18 @@
+@media (min-width: 1024px) {
+  .About-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+
+  .About-item {
+    flex: 1 1 0;
+  }
+}
+
+.About-text {
+  font-size: 18px;
+}
+
+.About-text a {
+  text-decoration: underline;
+}

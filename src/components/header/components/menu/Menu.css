@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+  .Menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+.Menu-item {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.dark .Menu-item {
+  color: rgb(212, 212, 212);
+}
+
+.light .Menu-item {
+  color: rgb(64, 64, 64);
+}
+
+.dark .Menu-item:hover {
+  color: rgb(255, 255, 255);
+}
+
+.light .Menu-item:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1023px) {
+  .Menu-item {
+    font-size: 25px;
+    display: block;
+  }
+
+  .Menu-item + .Menu-item {
+    margin-top: 40px;
+  }
+}

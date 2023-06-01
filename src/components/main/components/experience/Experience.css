@@ -1,0 +1,25 @@
+.Experience-item + .Experience-item {
+  padding-top: 40px;
+}
+
+@media (min-width: 1024px) {
+  .Experience-item {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.Experience-years {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.Experience-position {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.Experience-list li {
+  font-size: 18px;
+}

@@ -1,0 +1,92 @@
+:root {
+  --color: rgb(34, 34, 34);
+  --background: rgb(255, 255, 255);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+P {
+  margin-bottom: 10px;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  background-color: var(--background);
+  font-size: 14px;
+  color: var(--color);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  outline: 0;
+  color: inherit;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.section-title {
+  font-size: 45px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.light .section-title {
+  color: rgb(68, 79, 90);
+}
+
+.dark .section-title {
+  color: rgb(162, 161, 166);
+}
+
+.section-wrapper {
+  padding: 100px 0;
+}

@@ -1,0 +1,55 @@
+.Hamburger-wrapper {
+  position: relative;
+  width: 28px;
+  height: 20px;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.Hamburger-wrapper_opened span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  left: 50%;
+  opacity: 0;
+}
+.Hamburger-wrapper_opened span:nth-child(2) {
+  transform: rotate(45deg);
+}
+.Hamburger-wrapper_opened span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.Hamburger-wrapper_opened span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  left: 50%;
+  opacity: 0;
+}
+.Hamburger-item {
+  display: block;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out;
+  height: 3px;
+}
+
+.light .Hamburger-item {
+  background-color: rgb(23, 23, 23);
+}
+
+.dark .Hamburger-item {
+  background-color: rgb(245, 245, 245);
+}
+
+.Hamburger-wrapper span:nth-child(1) {
+  top: 0;
+}
+.Hamburger-wrapper span:nth-child(2),
+.Hamburger-wrapper span:nth-child(3) {
+  top: 8px;
+}
+.Hamburger-wrapper span:nth-child(4) {
+  top: 16px;
+}
