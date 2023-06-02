@@ -10,10 +10,10 @@ function Top() {
   useEffect(() => {
     const typed = new Typed(spanEl.current, {
       strings: [
-        "I'am Software Engineer",
+        'I am Software Engineer',
         'I solve problems',
-        "I'am Front-end developer",
-        "I'am Back-end developer",
+        'I am Front-end developer',
+        'I am Back-end developer',
         'I build websites',
       ],
       typeSpeed: 100,
