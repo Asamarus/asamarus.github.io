@@ -1,6 +1,16 @@
-import './Skills.css';
+import './Skills.css'
 
 const items = [
+  {
+    name: '.Net',
+    icon: 'dot_net',
+    url: 'https://dotnet.microsoft.com/',
+  },
+  {
+    name: 'C#',
+    icon: 'c_sharp',
+    url: 'https://dotnet.microsoft.com/en-us/languages/csharp',
+  },
   {
     name: 'HTML',
     icon: 'html',
@@ -40,6 +50,11 @@ const items = [
     name: 'Webpack',
     icon: 'webpack',
     url: 'https://webpack.js.org/',
+  },
+  {
+    name: 'Vite',
+    icon: 'vite',
+    url: 'https://vitejs.dev/',
   },
   {
     name: 'Less',
@@ -91,7 +106,7 @@ const items = [
     icon: 'android',
     url: 'https://www.android.com/',
   },
-];
+]
 
 function Skills() {
   return (
@@ -104,12 +119,15 @@ function Skills() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`/skills/${item.icon}.svg`} alt={item.name} />
+          <img
+            src={`/skills/${item.icon}.svg`}
+            alt={item.name}
+          />
           <span>{item.name}</span>
         </a>
       ))}
     </div>
-  );
+  )
 }
 
-export default Skills;
+export default Skills

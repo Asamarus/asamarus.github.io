@@ -1,6 +1,17 @@
-import './Experience.css';
+import './Experience.css'
 
 const items = [
+  {
+    years: '2023 – present',
+    place: 'SIA S-TEC Latvia',
+    position: 'Full-stack (.Net/React) developer',
+    listItems: [
+      'Worked at a multinational company with offices in Latvia and Germany in a team of 20+ developers.',
+      'Developed a multi-modular .NET application with a NoSQL DBreeze database and React for the user interface.',
+      'Conducted peer code reviews.',
+      'Mentored Junior developers.',
+    ],
+  },
   {
     years: '2018 – 2022',
     place: 'SIA A4 Studio',
@@ -32,15 +43,22 @@ const items = [
       'Developed and maintained administration panel to manage advertisements.',
     ],
   },
-];
+]
 
 function Experience() {
   return (
-    <section id="experience" className="section-wrapper">
+    <section
+      id="experience"
+      className="section-wrapper"
+    >
       <h2 className="section-title">Experience</h2>
       <div className="Experience-items">
         {items.map((item, index) => (
-          <div key={index} className="Experience-item" data-aos="fade-in">
+          <div
+            key={index}
+            className="Experience-item"
+            data-aos="fade-in"
+          >
             <div className="Experience-years">
               {item.years} <strong>{item.place}</strong>
             </div>
@@ -56,7 +74,7 @@ function Experience() {
         ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Experience;
+export default Experience
