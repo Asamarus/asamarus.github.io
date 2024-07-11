@@ -7,7 +7,7 @@ const items = [
     position: 'Full-stack (.Net/React) developer',
     listItems: [
       'Worked at a multinational company with offices in Latvia and Germany in a team of 20+ developers.',
-      'Developed a multi-modular .NET application with a NoSQL DBreeze database and React for the user interface.',
+      'Developed a multi-modular .NET/React application.',
       'Conducted peer code reviews.',
       'Mentored Junior developers.',
     ],
