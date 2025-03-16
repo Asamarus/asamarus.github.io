@@ -2,7 +2,7 @@ import './Skills.css'
 
 const items = [
   {
-    name: '.Net',
+    name: '.NET',
     icon: 'dot_net',
     url: 'https://dotnet.microsoft.com/',
   },

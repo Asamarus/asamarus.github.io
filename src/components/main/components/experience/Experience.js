@@ -2,9 +2,15 @@ import './Experience.css'
 
 const items = [
   {
-    years: '2023 – present',
+    years: '2024 – present',
+    place: 'AS Emergn',
+    position: 'Senior .NET Developer',
+    listItems: [],
+  },
+  {
+    years: '2023 – 2024',
     place: 'SIA S-TEC Latvia',
-    position: 'Full-stack (.Net/React) developer',
+    position: 'Full-stack (.NET/React) developer',
     listItems: [
       'Worked at a multinational company with offices in Latvia and Germany in a team of 20+ developers.',
       'Developed a multi-modular .NET/React application.',

@@ -1,21 +1,20 @@
-import './Projects.css';
+import './Projects.css'
 
-import { MdOpenInNew } from 'react-icons/md';
-import { FaGithub } from 'react-icons/fa';
+import { MdOpenInNew } from 'react-icons/md'
+import { FaGithub } from 'react-icons/fa'
 
 const items = [
   {
     name: 'Notes',
     description: 'An open-source note taking application.',
     image: 'notes',
-    tags: ['React', 'Adonis.js', 'SQLite'],
-    url: 'https://github.com/asamarus/notes',
-    source: 'https://github.com/asamarus/notes',
+    tags: ['.NET', 'React', 'SQLite'],
+    url: 'https://github.com/asamarus/asp-notes',
+    source: 'https://github.com/asamarus/asp-notes',
   },
   {
     name: 'Battleship',
-    description:
-      'A classic battleship game with different bonuses and penalties.',
+    description: 'A classic battleship game with different bonuses and penalties.',
     image: 'battleship',
     tags: ['React', 'PWA'],
     source: 'https://github.com/asamarus/battleship',
@@ -73,8 +72,7 @@ const items = [
   },
   {
     name: 'Ainma',
-    description:
-      'Website for a stainless and non-ferrous components manufacturing company.',
+    description: 'Website for a stainless and non-ferrous components manufacturing company.',
     image: 'ainma',
     tags: ['React', 'Laravel'],
     url: 'https://www.ainma.eu/',
@@ -88,20 +86,26 @@ const items = [
   },
   {
     name: 'Mentāli vesels',
-    description:
-      'Website for a company that organizes summer camps for children.',
+    description: 'Website for a company that organizes summer camps for children.',
     image: 'mentali_vesels',
     tags: ['React', 'Laravel'],
     url: 'https://www.mentalivesels.lv/',
   },
-];
+]
 
 function Projects() {
   return (
-    <section id="projects" className="section-wrapper">
+    <section
+      id="projects"
+      className="section-wrapper"
+    >
       <h2 className="section-title">Projects</h2>
       {items.map((item, index) => (
-        <div key={index} className="Projects-item" data-aos="flip-up">
+        <div
+          key={index}
+          className="Projects-item"
+          data-aos="flip-up"
+        >
           <a
             className="Projects-image-wrapper"
             href={item.url}
@@ -119,20 +123,37 @@ function Projects() {
             <div className="Projects-description">{item.description}</div>
             <div className="Projects-tags">
               {item.tags.map((tag, index) => (
-                <div key={index} className="Projects-tag">
+                <div
+                  key={index}
+                  className="Projects-tag"
+                >
                   {tag}
                 </div>
               ))}
             </div>
             <div className="Projects-icons">
               {item.source && (
-                <a href={item.source} target="_blank" rel="noreferrer">
-                  <FaGithub className="Projects-icon" size={30} />
+                <a
+                  href={item.source}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub
+                    className="Projects-icon"
+                    size={30}
+                  />
                 </a>
               )}
               {item.url && (
-                <a href={item.url} target="_blank" rel="noreferrer">
-                  <MdOpenInNew className="Projects-icon" size={30} />
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MdOpenInNew
+                    className="Projects-icon"
+                    size={30}
+                  />
                 </a>
               )}
             </div>
@@ -140,7 +161,7 @@ function Projects() {
         </div>
       ))}
     </section>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
