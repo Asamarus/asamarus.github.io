@@ -5,6 +5,14 @@ import { FaGithub } from 'react-icons/fa'
 
 const items = [
   {
+    name: 'Family Tree Editor',
+    description: 'An open-source family tree editor.',
+    image: 'family-tree-editor',
+    tags: ['React', 'MobX', 'TypeScript'],
+    url: 'https://asamarus.github.io/family-tree-editor/',
+    source: 'https://github.com/Asamarus/family-tree-editor',
+  },
+  {
     name: 'Notes',
     description: 'An open-source note taking application.',
     image: 'notes',
