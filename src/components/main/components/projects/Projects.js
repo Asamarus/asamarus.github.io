@@ -5,6 +5,14 @@ import { FaGithub } from 'react-icons/fa'
 
 const items = [
   {
+    name: 'Internal Service Desk',
+    description: 'A service desk demo comparing React, Angular, SAPUI5, and Blazor frontends with shared functionality and an ASP.NET Core OData backend, orchestrated with Aspire.',
+    image: 'internal-service-desk',
+    tags: ['Aspire', 'OData', 'Angular', 'React', 'SAPUI5', 'Blazor', '.NET', 'PostgreSQL', 'Playwright', 'Feature Sliced Design'],
+    url: 'https://github.com/Asamarus/internal-service-desk',
+    source: 'https://github.com/Asamarus/internal-service-desk',
+  },
+  {
     name: 'Family Tree Editor',
     description: 'An open-source family tree editor.',
     image: 'family-tree-editor',
